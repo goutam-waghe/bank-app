@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <p id="welcome_message">Good Morning , Goutam</p>
+        <img src="https://placeholder.com" id="logo" alt="Logo">
+        <form>
+            <input type="text" id="username" placeholder="user">
+            <input type="text" id="pin" placeholder="pin">
+            <button id="btn-go">Go</button>
+        </form>
+    </div>
+    <div class="hero">
+        <div class="balance_field">
+            <div class="current_balance">
+                <h2>Current Balance</h2>
+                <p>As of <span id="current_date">11/09/24</span></p>
+            </div>
+            <div class="balance_ammount">
+                $2369000
+            </div>
+        </div>
+        <div class="main-box">
+            <div class="transiction_status">
+                <div class="transiction_status_box">
+                    <div class="status_box_left">
+                        <p>deposite</p>
+                        <p id="transiton_time"> today</p>
+                    </div>
+                    <div class="transiction_ammount">$5200</div>
+                </div>
+            </div>
+            <div class="Bank_working_field">
+                <div class="transfer_money work_input">
+                    <h1>Transfer Money</h1>
+                    <div class="money_input">
+                        <input type="text" name="" id="transfer_money_username">
+                        <input type="text" name="" id="transfer_money_ammount">
+
+
+                        <button id="btn_tranfer_money">transfer</button>
+                    </div>
+                </div>
+                <div class="request_loan work_input">
+                    <h1>Request Loan</h1>
+                    <div class="money_input">
+                        <input type="text" name="" id="request_loan_ammount">
+
+                        <button id="btn_loan">request</button>
+                    </div>
+                </div>
+                <div class="close_account work_input">
+                    <h1>Close Account</h1>
+                    <div class="money_input">
+                        <input type="text" name="" id="close_account_username">
+                        <input id="close_account_pin" type="text" name="">
+
+                        <button id="btn_close_account">close</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <div class="account_transiction_info">
+            <div class="account_transiction_info_left">
+                <div class="ammount_in">
+                    IN <span id="in">5202</span>
+                </div>
+                <div class="ammount_out">
+                    IN <span id="out">5659</span>
+                </div>
+                <div class="interest">
+                    Intrest <span id="interest_ammount">200</span>
+                </div>
+                <button id="sort_btn">Sort</button>
+
+
+            </div>
+            <div class="logout">
+                You will be logout in <span id="logout_time">10</span>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

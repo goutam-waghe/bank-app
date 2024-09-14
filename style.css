@@ -54,6 +54,7 @@ body {
 
     padding: 10px 0px;
     height: 90vh;
+    display: none;
 }
 
 .balance_field {
